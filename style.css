@@ -1,8 +1,4 @@
 html,
-body{
-    background-color: #83c5be;
-  }
-
 .page{
     width: 2000px;  
     height: 1000px;  
@@ -13,12 +9,14 @@ body{
 }
 .vis-container{
     width: 80%;
+    align-self: center;
+    align-content: center;
 }
 
 h1 {
     text-align: center;
     color: #293241;
-    font-size: 80px;
+    font-size: 60px;
     font-family: Impact, Charcoal, sans-serif;
 }
 
