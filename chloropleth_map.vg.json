@@ -36,9 +36,7 @@
         "color": {
           "field": "Ladder_Score",
           "type": "quantitative",
-          "scale": {
-            "range": ["yellow", "green"] 
-          },
+          "scale": {"scheme" :"yellowgreen-4"},
           "legend": {
             "orient": "bottom-left",
             "title": "Happiness Score",
