@@ -36,10 +36,10 @@
         "color": {
           "field": "Ladder_Score",
           "type": "quantitative",
-          "scale": {"scheme": "redyellowgreen"},
+          "scale": {"scheme": "blues"}, 
           "legend": {
             "orient": "bottom-left",
-            "title": "Hapiness Score",
+            "title": "Happiness Score",
             "labelBaseline": "middle",
             "direction": "vertical"
           }
@@ -53,7 +53,7 @@
           {
             "field": "Ladder_Score",
             "type": "quantitative",
-            "title": "Hapiness Score:"
+            "title": "Happiness Score:"
           }
         ]
       }
