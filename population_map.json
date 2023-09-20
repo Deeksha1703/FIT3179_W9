@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "world-data-2023.csv"
+    },
+    "transform": [
+      {"calculate": "datum.Population / 1000000", "as": "Population (Millions)"}
+    ],
+    "projection": {"type": "mercator"},
+    "mark": "geoshape",
+    "encoding": {
+      "color": {
+        "field": "Population (Millions)",
+        "type": "quantitative",
+        "scale": {"scheme": "viridis"}
+      },
+      "tooltip": [
+        {"field": "Country", "type": "nominal", "title": "Country"},
+        {"field": "Population (Millions)", "type": "quantitative", "title": "Population (Millions)"}
+      ],
+      "latitude": {"field": "Latitude", "type": "quantitative"},
+      "longitude": {"field": "Longitude", "type": "quantitative"}
+    }
+  }
+  
