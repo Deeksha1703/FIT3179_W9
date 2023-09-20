@@ -42,8 +42,8 @@
             "title": "Happiness Index",
             "labelBaseline": "middle",
             "direction": "vertical",
-            "titleFontSize": 16,
-            "labelFontSize": 12
+            "titleFontSize": 20,
+            "labelFontSize": 18
           }
         },
         "tooltip": [
