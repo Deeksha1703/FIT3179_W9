@@ -4,14 +4,15 @@ body{
   }
 
 .page{
-    width: 1000px;    
+    width: 2000px;  
+    height: 1500px;  
     background-color: #edf6f9 ;   
     margin: auto;
     padding: 50px;
     padding-top: 35px;
 }
 .vis-container{
-    width: 80%;
+    width: 100%;
 }
 
 
