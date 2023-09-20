@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World Happiness Score 2021</title>
-    <!-- Add any additional CSS or JavaScript libraries if needed -->
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <script src="vega_lite_vis.js"></script>
+
+    <title>First vega-lite graph </title>
 </head>
+
 <body>
-    <h1>World Happiness Score 2021</h1>
-    <div id="vega-container"></div>
-
-    <!-- Include Vega and Vega-Lite scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
-    <script>
-        // Load the Vega-Lite specification from the external JSON file
-        fetch('chloropleth_map.json')
-            .then(response => response.json())
-            .then(vlSpec => {
-                // Embed the Vega-Lite visualization in the "vega-container" div
-                vegaEmbed("#vega-container", vlSpec);
-            })
-            .catch(error => console.error('Error loading Vega-Lite spec:', error));
-    </script>
+    <h1>First Vega-Lite graph</h1>
+    <div id="chloropleth_map">
+    </div>
 </body>
+
 </html>
