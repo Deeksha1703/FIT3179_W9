@@ -26,15 +26,15 @@
             "data": {
               "url": "https://raw.githubusercontent.com/Deeksha1703/FIT3179_W9/main/world-happiness-report-2021.csv"
             },
-            "key": "Country_Name",
-            "fields": ["Ladder_Score"]
+            "key": "Country name",
+            "fields": ["Ladder score"]
           }
         }
       ],
       "mark": {"type": "geoshape", "stroke": "grey"},
       "encoding": {
         "color": {
-          "field": "Ladder_Score",
+          "field": "Ladder score",
           "type": "quantitative",
           "scale": {"scheme" :"yellowgreenblue"},
           "legend": {
@@ -53,7 +53,7 @@
             "title": "Country Name:"
           },
           {
-            "field": "Ladder_Score",
+            "field": "Ladder score",
             "type": "quantitative",
             "title": "Happiness Index:"
           }
