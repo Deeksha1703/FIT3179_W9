@@ -11,7 +11,7 @@
     {
       "transform": [
         {
-          "calculate": "'Data is not available in ' + datum.properties.name",
+          "calculate": "'No data available for ' + datum.properties.name",
           "as": "note"
         }
       ],
